@@ -1,8 +1,8 @@
 [submodule "Keebio\\keebio-components"]
-	path = Keebio\\keebio-components
+	path = Keebio/keebio-components
 	url = https://github.com/keebio/keebio-components
 [submodule "Keebio\\Keebio-Parts.pretty"]
-	path = Keebio\\Keebio-Parts.pretty
+	path = Keebio/Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty
 [submodule "kicad-keyboard-parts.pretty"]
 	path = kicad-keyboard-parts.pretty
