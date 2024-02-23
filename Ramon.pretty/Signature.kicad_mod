@@ -1,16 +1,61 @@
-(module Signature (layer F.Cu) (tedit 5E3FE5CD)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+(footprint "Signature" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 88f464c4-f02f-46d6-8195-63cda81da04f)
   )
-  (fp_text value Signature (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value "Signature" (at 0 -0.5) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2e675fa5-db3e-49d7-9a24-2bdf2056221c)
   )
-  (fp_text user RMI (at 0 0) (layer F.Cu)
-    (effects (font (size 3 3) (thickness 0.75)))
+  (fp_text user "RMI" (at 0 0 unlocked) (layer "F.Cu")
+      (effects (font (size 3 3) (thickness 0.75)))
+    (tstamp 926f676e-12b3-4ed8-930e-0c6347f35d20)
   )
-  (fp_poly (pts (xy -5 2.5) (xy -5.5 2.5) (xy -5.5 -2.75) (xy -5 -2.75)) (layer F.Cu) (width 0.1))
-  (fp_poly (pts (xy 5.5 2.5) (xy 5 2.5) (xy 5 -2.75) (xy 5.5 -2.75)) (layer F.Cu) (width 0.1))
-  (fp_poly (pts (xy 5.5 -2.75) (xy -5.5 -2.75) (xy -5.5 -3.25) (xy 5.5 -3.25)) (layer F.Cu) (width 0.1))
-  (fp_poly (pts (xy 5.5 3) (xy -5.5 3) (xy -5.5 2.5) (xy 5.5 2.5)) (layer F.Cu) (width 0.1))
-  (fp_poly (pts (xy 5.5 3) (xy -5.5 3) (xy -5.5 -3.25) (xy 5.5 -3.25)) (layer F.Mask) (width 0.1))
+  (fp_poly
+    (pts
+      (xy -5 2.5)
+      (xy -5.5 2.5)
+      (xy -5.5 -2.75)
+      (xy -5 -2.75)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Cu") (tstamp 16f81fa7-ce00-4002-b97c-ca31707b5f80))
+  (fp_poly
+    (pts
+      (xy 5.5 -2.75)
+      (xy -5.5 -2.75)
+      (xy -5.5 -3.25)
+      (xy 5.5 -3.25)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Cu") (tstamp 6e304710-6ffd-4785-9b51-b8a615e3f156))
+  (fp_poly
+    (pts
+      (xy 5.5 2.5)
+      (xy 5 2.5)
+      (xy 5 -2.75)
+      (xy 5.5 -2.75)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Cu") (tstamp ff1bf522-79e6-485f-acf3-b04b1e3b91b2))
+  (fp_poly
+    (pts
+      (xy 5.5 3)
+      (xy -5.5 3)
+      (xy -5.5 2.5)
+      (xy 5.5 2.5)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Cu") (tstamp 04d6f868-a7bc-475e-bb2c-05628933b8c0))
+  (fp_poly
+    (pts
+      (xy 5.5 3)
+      (xy -5.5 3)
+      (xy -5.5 -3.25)
+      (xy 5.5 -3.25)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp 0d3c732a-27d3-4702-8ce0-e584aee07181))
 )
