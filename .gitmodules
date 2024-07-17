@@ -16,3 +16,6 @@
 [submodule "Type-C.pretty"]
 	path = Type-C.pretty
 	url = https://github.com/ramonimbao/Type-C.pretty
+[submodule "kleeb"]
+	path = kleeb
+	url = https://github.com/crides/kleeb
